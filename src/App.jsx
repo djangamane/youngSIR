@@ -513,7 +513,7 @@ const App = () => {
                   <span className="font-mono text-champagne text-sm uppercase tracking-widest block mb-6">03 / INTEGRATE</span>
                   <h3 className="text-3xl md:text-5xl font-bold mb-8 uppercase tracking-tighter">System Integration.</h3>
                   <p className="text-white/40 text-lg leading-relaxed">
-                    Finalize synchronization with the program. Coordinate directly with Boss Steph to execute the recruitment and NIL engagement strategy.
+                    Finalize synchronization with the program. Coordinate directly with Stephanie Gunner to execute the recruitment and NIL engagement strategy.
                   </p>
                   <button className="mt-12 btn-magnetic btn-gold">
                     EXECUTE SYNC
@@ -548,13 +548,13 @@ const App = () => {
               
               <div className="relative rounded-4xl overflow-hidden group mb-12 w-full max-w-md aspect-[3/4]">
                 <img 
-                  src="/assets/boss_steph.png" 
-                  alt="Boss Steph — Primary Advocate" 
+                  src="/assets/steph.jpg" 
+                  alt="Stephanie Gunner — Primary Advocate" 
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-obsidian via-transparent to-transparent" />
                 <div className="absolute bottom-12 left-12">
-                  <p className="text-white font-bold text-2xl mb-2">Boss Steph</p>
+                  <p className="text-white font-bold text-2xl mb-2">Stephanie Gunner</p>
                   <p className="text-champagne font-mono text-[10px] uppercase tracking-widest">Primary Contact & Advocate</p>
                 </div>
               </div>
