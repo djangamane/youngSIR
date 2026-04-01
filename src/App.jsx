@@ -341,7 +341,7 @@ const App = () => {
           <img 
             src="/assets/pg_action1.png" 
             alt="Sir Montgomery in Action" 
-            className="w-full h-full object-cover opacity-60 grayscale-[20%]"
+            className="w-full h-full object-cover object-top opacity-90 transition-opacity duration-1000"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-obsidian via-obsidian/40 to-transparent" />
         </div>
@@ -402,9 +402,9 @@ const App = () => {
           <img 
             src="/assets/pg_action2.png" 
             alt="Clark High Chargers Banners" 
-            className="parallax-bg w-full h-[150%] object-cover opacity-20 filter grayscale"
+            className="parallax-bg w-full h-[120%] object-cover opacity-50 brightness-75 contrast-125"
           />
-          <div className="absolute inset-0 bg-obsidian/80" />
+          <div className="absolute inset-0 bg-obsidian/60" />
         </div>
 
         <div className="relative z-10 max-w-6xl mx-auto text-center md:text-left">
