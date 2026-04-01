@@ -422,21 +422,29 @@ const App = () => {
                 </h2>
               </div>
             </div>
-            
-            <div className="md:absolute md:bottom-24 md:right-24 md:max-w-md bg-white/5 backdrop-blur-2xl p-8 border border-white/10 rounded-4xl reveal mt-12 md:mt-0">
-              <Sparkles className="text-champagne mb-6" size={32} />
-              <p className="text-white/70 text-sm leading-relaxed mb-6 italic">
-                "Subject is a primary target for readiness evaluation. His documented assist-to-turnover ratio and defensive spacing metrics signal a missionary archetype — built for institutional alignment."
-              </p>
-              <div className="flex items-center gap-4">
-                <div className="w-10 h-10 rounded-full bg-champagne/20 border border-champagne/40 flex items-center justify-center text-champagne text-[10px] font-bold">
-                  SIR
-                </div>
-                <div>
-                  <p className="text-white font-bold text-xs tracking-widest uppercase">NIL Command</p>
-                  <p className="text-white/40 text-[9px] uppercase font-mono">Strategic Analyst</p>
-                </div>
+          </div>
+        </div>
+
+        {/* Repositioned NIL Card — Pinned to bottom right of section */}
+        <div className="md:absolute md:bottom-12 md:right-12 md:max-w-sm bg-obsidian/40 backdrop-blur-3xl p-6 border border-white/5 rounded-3xl reveal mt-12 md:mt-0 mx-8 md:mx-0">
+          <div className="flex items-start gap-4 mb-4">
+            <Sparkles className="text-champagne shrink-0" size={24} />
+            <p className="text-white/70 text-[11px] leading-relaxed italic">
+              "Subject is a primary target for readiness evaluation. His documented assist-to-turnover ratio signals a missionary archetype — built for institutional alignment."
+            </p>
+          </div>
+          <div className="flex items-center justify-between border-t border-white/5 pt-4">
+            <div className="flex items-center gap-3">
+              <div className="w-8 h-8 rounded-full bg-champagne/20 border border-champagne/40 flex items-center justify-center text-champagne text-[8px] font-bold">
+                SIR
               </div>
+              <div>
+                <p className="text-white font-bold text-[10px] tracking-widest uppercase leading-none mb-1">NIL Command</p>
+                <p className="text-white/40 text-[8px] uppercase font-mono leading-none">Strategic Analyst</p>
+              </div>
+            </div>
+            <div className="text-[8px] font-mono text-champagne/40 uppercase tracking-widest">
+              Verified_2026
             </div>
           </div>
         </div>
