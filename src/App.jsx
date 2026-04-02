@@ -78,9 +78,9 @@ const Navbar = () => {
 const FeatureCard1 = () => {
   // Shuffler
   const [items, setItems] = useState([
-    { id: 1, label: "#1 Assist Leader", value: "106 Total" },
-    { id: 2, label: "Efficiency", value: "4.2 APG" },
-    { id: 3, label: "Win-Share", value: "15-Game Streak" },
+    { id: 1, label: "#2 STATE ASSIST LEADER", value: "106 Total" },
+    { id: 2, label: "ACADEMIC EXCELLENCE", value: "3.9 GPA" },
+    { id: 3, label: "WIN-SHARE", value: "15-GAME STREAK" },
   ]);
 
   useEffect(() => {
@@ -130,10 +130,10 @@ const FeatureCard1 = () => {
 const FeatureCard2 = () => {
   // Typewriter
   const stats = [
-    "> SEMIFINAL: Clutch FT with 1 sec remaining → 51-48 Victory",
+    "> ACADEMICS: 3.9 GPA — Scholar-Athlete active",
     "> STATE CHAMP: Stabilizing ball-handler → 56-54 Title Win",
     "> DEFENSE: 1.3 SPG — Perimeter lockdown active",
-    "> OFFENSE: #1 Assistant leader — System driver"
+    "> OFFENSE: #2 State Assistant leader — System driver"
   ];
   const [index, setIndex] = useState(0);
   const [text, setText] = useState("");
@@ -349,7 +349,7 @@ const App = () => {
         <div className="relative z-10 max-w-4xl">
           <div className="mb-6 inline-flex items-center gap-3 px-4 py-2 rounded-full border border-champagne/30 bg-white/5 backdrop-blur-xl">
             <span className="w-2 h-2 rounded-full bg-champagne animate-pulse" />
-            <span className="text-[10px] uppercase tracking-[0.2em] font-mono text-white/80">6'2" — 165 lbs / Class of 2027 / #1 Assist Leader</span>
+            <span className="text-[10px] uppercase tracking-[0.2em] font-mono text-white/80">6'2" — 165 lbs / 3.9 GPA SCHOLAR / #2 STATE ASSIST LEADER</span>
           </div>
           <h1 className="flex flex-col gap-2">
             <span className="hero-line-1 text-5xl md:text-7xl font-extrabold text-white uppercase tracking-tighter leading-none">
@@ -640,7 +640,7 @@ const App = () => {
             <div className="md:col-span-2">
               <span className="text-2xl font-bold text-champagne mb-8 block">SIR MONTGOMERY</span>
               <p className="text-white/40 text-sm max-w-sm leading-relaxed italic">
-                Championship-caliber floor general. Class of 2027. Las Vegas desert region #1 assist leader. A AAA-rated mission asset for elite programs.
+                Championship-caliber floor general. Class of 2027. 3.9 GPA Scholar. #2 State Assist Leader. A AAA-rated mission asset for elite programs.
               </p>
             </div>
             <div>
