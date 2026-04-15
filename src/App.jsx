@@ -1,20 +1,22 @@
 import React, { useEffect, useRef, useState, useLayoutEffect } from 'react';
+import { Routes, Route } from 'react-router-dom';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { 
-  ShieldCheck, 
-  Activity, 
-  Target, 
-  ArrowRight, 
-  ChevronRight, 
-  Mail, 
-  BarChart3, 
-  Command, 
-  Sparkles, 
+import {
+  ShieldCheck,
+  Activity,
+  Target,
+  ArrowRight,
+  ChevronRight,
+  Mail,
+  BarChart3,
+  Command,
+  Sparkles,
   Globe,
   Settings,
   UserCheck
 } from 'lucide-react';
+import Press from './Press.jsx';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -58,14 +60,20 @@ const Navbar = () => {
       
       <div className="hidden md:flex items-center gap-8">
         {['Intel', 'Impact', 'Protocol', 'Contact'].map((item) => (
-          <a 
-            key={item} 
-            href={`#${item.toLowerCase()}`}
+          <a
+            key={item}
+            href={`/#${item.toLowerCase()}`}
             className="text-white/70 hover:text-champagne transition-colors text-sm font-medium tracking-wide uppercase hover:-translate-y-px"
           >
             {item}
           </a>
         ))}
+        <a
+          href="/press"
+          className="text-white/70 hover:text-champagne transition-colors text-sm font-medium tracking-wide uppercase hover:-translate-y-px"
+        >
+          Press
+        </a>
       </div>
 
       <button className="btn-magnetic btn-gold px-6 py-2.5 text-xs uppercase tracking-widest">
@@ -330,6 +338,15 @@ const App = () => {
     }
   };
 
+  return (
+    <Routes>
+      <Route path="/press" element={<Press />} />
+      <Route path="*" element={<MainSite containerRef={containerRef} formData={formData} setFormData={setFormData} submitStatus={submitStatus} handleSubmit={handleSubmit} />} />
+    </Routes>
+  );
+};
+
+const MainSite = ({ containerRef, formData, setFormData, submitStatus, handleSubmit }) => {
   return (
     <div ref={containerRef} className="selection:bg-champagne/30 text-slate selection:text-white">
       <Navbar />
@@ -698,3 +715,4 @@ const App = () => {
 };
 
 export default App;
+
