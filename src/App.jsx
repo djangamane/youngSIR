@@ -318,7 +318,7 @@ const App = () => {
     setSubmitStatus('sending');
     try {
       // User requested Make.com webhook placeholder
-      const response = await fetch('https://hook.us1.make.com/placeholder_id', {
+      const response = await fetch('https://hook.us2.make.com/pfb6yawgs9wtldgk5je6z6t0q9deszun', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ ...formData, system: 'SIR-COMMAND-PORTAL' }),
