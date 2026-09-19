@@ -1,16 +1,24 @@
-# React + Vite
+# Sir Montgomery — College Basketball Recruiting
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Mobile-first recruiting profile for Sir Montgomery, a Class of 2027 combo guard at Clark High School in Las Vegas. The page puts his player profile, season production, film area, accomplishments, college exposure, schedule request, and recruiting contact within a few taps.
 
-Currently, two official plugins are available:
+## Current profile data
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The site uses the public 2025–26 Clark season profile currently available for Sir: 6′0″, 160 lb, 3.9 GPA, 4.2 APG, 106 total assists, 9.2 PPG, and 1.3 SPG. Replace these values in `src/App.jsx` when Stephanie confirms the preferred measurements or academic figure.
 
-## React Compiler
+The accomplishments and exposure section includes the supplied State Champion, NXTPro Champion, AAU Offensive Player of the Year, University of Montana Mr. Grizz Award, Southern Utah Elite Camp, Long Beach State Nike Basketball Camp, and Colorado State visit details.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Film cards intentionally show “Film link to be added” until real YouTube, Hudl, or Veo URLs are supplied. Upcoming schedule currently says it is being finalized rather than inventing dates.
 
-## Expanding the ESLint configuration
+The temporary contact destination is Stephanie’s existing public Squad Beauty Professionals inbox. Update `profile.email` in `src/App.jsx` when the preferred recruiting email or phone is confirmed. Contact forms open a populated email draft and do not store submissions.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Run and build
+
+```sh
+npm ci
+npm run dev
+npm run lint
+npm run build
+```
+
+The production output is written to `dist/` and is ready for the existing Vercel deployment configuration.
