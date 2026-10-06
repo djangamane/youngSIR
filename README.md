@@ -4,13 +4,13 @@ Mobile-first recruiting profile for Sir Montgomery, a Class of 2027 combo guard 
 
 ## Current profile data
 
-The site uses the public 2025–26 Clark season profile currently available for Sir: 6′0″, 160 lb, 3.9 GPA, 4.2 APG, 106 total assists, 9.2 PPG, and 1.3 SPG. Replace these values in `src/App.jsx` when Stephanie confirms the preferred measurements or academic figure.
+Stephanie confirmed Sir's current recruiting profile: 6′3″, 175 lb, and a 4.04 weighted GPA. The page also includes the public 2025–26 Clark season statistics: 4.2 APG, 106 total assists, 9.2 PPG, and 1.3 SPG.
 
 The accomplishments and exposure section includes the supplied State Champion, NXTPro Champion, AAU Offensive Player of the Year, University of Montana Mr. Grizz Award, Southern Utah Elite Camp, Long Beach State Nike Basketball Camp, and Colorado State visit details.
 
-Film cards intentionally show “Film link to be added” until real YouTube, Hudl, or Veo URLs are supplied. Upcoming schedule currently says it is being finalized rather than inventing dates.
+Film cards intentionally show “Film link to be added” until real YouTube, Hudl, or Veo URLs are supplied. The schedule lists the Men’s College Basketball Prospect ID Showcase in Los Angeles on September 20, 2026; ask the family for additional dates as they are confirmed.
 
-The temporary contact destination is Stephanie’s existing public Squad Beauty Professionals inbox. Update `profile.email` in `src/App.jsx` when the preferred recruiting email or phone is confirmed. Contact forms open a populated email draft and do not store submissions.
+The recruiting contact is `Sirgunner1@gmail.com` and `+1 (702) 712-1317`. The email and phone links are clickable. Contact forms open a populated email draft and do not store submissions.
 
 ## Run and build
 
