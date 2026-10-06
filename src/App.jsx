@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { ArrowRight, CheckCircle2, ExternalLink, Film, GraduationCap, Mail, Menu, Play, Trophy, X } from 'lucide-react';
 
-const profile = { name: 'Sir Montgomery', classYear: '2027', school: 'Clark High School', location: 'Las Vegas, Nevada', position: 'Combo guard · PG / SG', height: '6\'3"', weight: '175 lbs', gpa: '4.04 weighted', email: 'Sirgunner1@gmail.com', phone: '+1 (702) 712-1317', instagram: 'https://www.instagram.com/_sirskiiiii/', maxPreps: 'https://www.maxpreps.com/nv/las-vegas/clark-chargers/athletes/sir-montgomery/?careerid=bh7ufhgi3k299' };
+const profile = { name: 'Sir Montgomery', classYear: '2027', school: 'Clark High School', location: 'Las Vegas, Nevada', position: 'Combo guard · PG / SG', height: '6\'3"', weight: '175 lbs', gpa: '4.04 weighted', email: 'sirgunner1@gmail.com', phone: '+1 (702) 712-1317', instagram: 'https://www.instagram.com/_sirskiiiii/', maxPreps: 'https://www.maxpreps.com/nv/las-vegas/clark-chargers/athletes/sir-montgomery/?careerid=bh7ufhgi3k299' };
 
 const stats = [['4.2', 'APG', 'Team leader'], ['106', 'AST', '2025–26 total'], ['9.2', 'PPG', 'Season average'], ['1.3', 'SPG', 'Defensive impact']];
 const film = [

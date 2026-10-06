@@ -10,7 +10,7 @@ The accomplishments and exposure section includes the supplied State Champion, N
 
 Film cards intentionally show “Film link to be added” until real YouTube, Hudl, or Veo URLs are supplied. The schedule lists the Men’s College Basketball Prospect ID Showcase in Los Angeles on September 20, 2026; ask the family for additional dates as they are confirmed.
 
-The recruiting contact is `Sirgunner1@gmail.com` and `+1 (702) 712-1317`. The email and phone links are clickable. Contact forms open a populated email draft and do not store submissions.
+The recruiting contact is `sirgunner1@gmail.com` and `+1 (702) 712-1317`. The email and phone links are clickable. Contact forms open a populated email draft and do not store submissions.
 
 ## Run and build
 
